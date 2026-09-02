@@ -29,16 +29,19 @@ h1 {
 }
 
 #name {
-    min-height: 180px;
+    min-height: 150px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-size: clamp(60px, 12vw, 150px);
+    font-size: clamp(40px, 9vw, 90px);
     font-weight: 900;
 
-    word-break: break-all;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    text-align: center;
+    line-height: 1.2;
 }
 
 #name.show {
